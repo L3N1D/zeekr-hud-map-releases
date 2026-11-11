@@ -1,7 +1,19 @@
-# Zeekr HUD Map — releases
+# Zeekr HUD Map
 
-Builds of Zeekr HUD Map, the companion of [Open Zeekr Headunit](https://github.com/L3N1D/open-zeekr-headunit-releases): it puts Android Auto's cluster map on the Zeekr X head-up display, cut to a circle or a rounded window, with the current track's card over it.
+Приложение для вывода отдельной карты Android Auto на HUD или приборную панель Zeekr. Работает совместно с [Open Zeekr Headunit](https://github.com/L3N1D/open-zeekr-headunit-releases).
 
-The app checks this repository's releases itself (when its settings are opened) and offers to install a newer one. Each release has one APK, `zeekr-hud-map.apk`.
+Можно выбрать форму, размер и положение карты, яркость, масштаб и отображение карточки текущего трека. Доступность отдельной карты зависит от телефона и навигационного приложения.
 
-Not affiliated with or endorsed by Zeekr.
+## Установка и обновления
+
+Скачайте `zeekr-hud-map.apk` из [последнего выпуска](https://github.com/L3N1D/zeekr-hud-map-releases/releases/latest). Проверка обновлений также доступна в настройках приложения.
+
+**С версии 1.0.4 изменена подпись APK.** Для перехода с 1.0.3 и более ранних версий нужно записать настройки, удалить прежнее приложение и установить новую версию. Удаление стирает настройки. Последующие версии с новой подписью обновляются обычным способом.
+
+## Разрешения
+
+На совместимой прошивке Zeekr приложение самостоятельно разрешает себе показ поверх приложений и установку обновлений. Open Headunit для выдачи прав не требуется. Саму установку обновления пользователь по-прежнему подтверждает.
+
+Автоматическая выдача требует совпадения подписи приложения с подписью платформы; проверена на Zeekr X с Android 11. На других прошивках остаётся ручное предоставление разрешений. Права других приложений и настройки системы не изменяются.
+
+Проект не связан с Zeekr и не является официальным продуктом производителя.
